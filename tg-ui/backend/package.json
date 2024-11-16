@@ -1,0 +1,36 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "cross-env DEBUG=bot:dev node index.js",
+    "dev": "cross-env DEBUG=bot:dev nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tonconnect/sdk": "^3.0.3",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "debug": "^4.3.5",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.4",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.3",
+    "qrcode": "^1.5.1",
+    "telegraf": "^4.16.3",
+    "validator": "^13.12.0"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.7",
+    "@types/validator": "^13.11.10",
+    "cross-env": "^7.0.3",
+    "nodemon": "^3.1.0"
+  }
+}
